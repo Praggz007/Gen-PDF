@@ -68,9 +68,4 @@ streamlit run app.py
 4. Add `GROQ_API_KEY` in the **Secrets** section
 5. Deploy!
 
-## 🤝 WeCodark Community
 
-Fork this repo and build your own version:
-- 📚 **Legal AI** — Upload legal contracts, ask questions
-- 🏥 **Medical AI** — Upload research papers, get summaries
-- 💰 **Finance AI** — Upload annual reports, extract insights
