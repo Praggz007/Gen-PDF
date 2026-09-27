@@ -68,4 +68,6 @@ streamlit run app.py
 4. Add `GROQ_API_KEY` in the **Secrets** section
 5. Deploy!
 
+##Overall
+General PDF analyzer for simple use
 
