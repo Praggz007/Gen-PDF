@@ -7,6 +7,7 @@
 langchain                  # The main orchestration framework for LLM apps
 langchain-groq             # Groq integration (super fast LLM inference)
 langchain-huggingface      # Free embeddings (no API key needed!)
+langchain-text-splitters   # Split extracted PDF text into searchable chunks
 sentence-transformers      # HuggingFace embeddings runtime dependency
 langchain-chroma           # ChromaDB integration with LangChain
 
