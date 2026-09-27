@@ -1,0 +1,25 @@
+# ============================================
+# 🚫 Files Git Should Ignore
+# ============================================
+
+# Secrets — NEVER push your API keys!
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# ChromaDB persistent storage (local data, not for GitHub)
+chroma_db/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#environment
+.env

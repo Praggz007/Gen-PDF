@@ -1,0 +1,3 @@
+[server]
+# Avoid Streamlit's source watcher probing optional Transformers image modules.
+fileWatcherType = "none"

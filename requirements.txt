@@ -1,0 +1,23 @@
+# ============================================
+# 📦 GenAI PDF Q&A Chatbot — Dependencies
+# ============================================
+# Install all at once:  pip install -r requirements.txt
+
+# --- Core LLM Framework ---
+langchain                  # The main orchestration framework for LLM apps
+langchain-groq             # Groq integration (super fast LLM inference)
+langchain-huggingface      # Free embeddings (no API key needed!)
+sentence-transformers      # HuggingFace embeddings runtime dependency
+langchain-chroma           # ChromaDB integration with LangChain
+
+# --- Vector Database ---
+chromadb                   # The vector database to store our document embeddings
+
+# --- PDF Processing ---
+pypdf                      # To read and extract text from PDF files
+
+# --- Environment & Secrets ---
+python-dotenv              # Load API keys from .env file (keeps secrets safe)
+
+# --- UI Framework ---
+streamlit                  # Build the web UI with just Python
